@@ -1,0 +1,23 @@
+{
+  "logo": "Impulsa tu Marca 💥",
+  "info_line_1": "Auditoría + Diseño Web",
+  "info_line_2": "WhatsApp: {whatsapp}",
+  "copyright": "© 2025 Impulsa tu Marca. Todos los derechos reservados.",
+  "links": [
+    {
+      "name": "Política de Privacidad",
+      "href": "#"
+    },
+    {
+      "name": "Términos y Condiciones",
+      "href": "#"
+    }
+  ],
+  "email_cta": {
+    "title": "¿Listo para Dejar de Ser Invisible?",
+    "subtitle": "Agenda tu consultoría estratégica gratuita.",
+    "link_text": "Hablemos",
+    "subject": "Solicitud de Consultoría Gratuita",
+    "body": "Hola, estoy interesado/a en la consultoría gratuita para impulsar mi marca."
+  }
+}

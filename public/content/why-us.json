@@ -1,0 +1,35 @@
+{
+  "title": "Por qué Elegirme Como tu Aliado Digital",
+  "reasons": [
+    {
+      "icon": "Clock",
+      "title": "Plazos que se Cumplen",
+      "description": "Tu proyecto listo en 30-90 días máximo. Sin demoras, sin excusas. Trabajamos con cronogramas realistas que respetamos."
+    },
+    {
+      "icon": "MessageCircle",
+      "title": "Comunicación Directa y Clara",
+      "description": "Cero intermediarios. Hablas conmigo, quien ejecuta tu proyecto. Respuestas rápidas, feedback honesto, y actualizaciones constantes."
+    },
+    {
+      "icon": "Target",
+      "title": "Resultados, No Solo Diseño",
+      "description": "Cada decisión está pensada para convertir. No creo 'sitios web bonitos', creo herramientas digitales que atraen clientes y generan ventas."
+    },
+    {
+      "icon": "Repeat",
+      "title": "Flexibilidad Real",
+      "description": "Si algo no te convence, lo ajustamos. Sin límite de revisiones durante el desarrollo. Tu satisfacción no es negociable."
+    },
+    {
+      "icon": "Brain",
+      "title": "Estrategia + Ejecución en un Solo Lugar",
+      "description": "No necesitas contratar a un estratega por un lado y un diseñador por otro. Yo cubro ambos frentes con la misma excelencia."
+    },
+    {
+      "icon": "BadgePercent",
+      "title": "Inversión Clara desde el Inicio",
+      "description": "Sin costos ocultos ni sorpresas. Sabes exactamente qué recibes y cuánto inviertes. Transparencia total."
+    }
+  ]
+}

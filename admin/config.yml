@@ -9,7 +9,7 @@ collections:
   - name: "pages"
     label: "Páginas"
     files:
-      - file: "content/contact.json"
+      - file: "public/content/contact.json"
         label: "Información de Contacto"
         name: "contact"
         fields:
@@ -19,7 +19,7 @@ collections:
           - { label: "Formulario URL", name: "form_url", widget: "string" }
           - { label: "Google Tag Manager ID", name: "gtm_id", widget: "string", hint: "Ej: GTM-XXXXXX" }
 
-      - file: "content/navbar.json"
+      - file: "public/content/navbar.json"
         label: "Barra de Navegación"
         name: "navbar"
         fields:
@@ -32,7 +32,7 @@ collections:
               - { label: "Ancla (href)", name: "href", widget: "string", hint: "Ej: #planes" }
           - { label: "Texto Botón CTA", name: "cta_text", widget: "string" }
 
-      - file: "content/hero.json"
+      - file: "public/content/hero.json"
         label: "Sección Principal (Hero)"
         name: "hero"
         fields:
@@ -53,7 +53,7 @@ collections:
               - { label: "Icono", name: "icon", widget: "select", options: ["none", "rocket", "star"] }
           - { label: "Nota de Disponibilidad", name: "availability_note", widget: "string" }
 
-      - file: "content/nosotros.json"
+      - file: "public/content/nosotros.json"
         label: "Sección 'Nosotros'"
         name: "nosotros"
         fields:
@@ -75,7 +75,7 @@ collections:
               - { label: "Valor", name: "value", widget: "string" }
               - { label: "Etiqueta", name: "label", widget: "string" }
 
-      - file: "content/servicios.json"
+      - file: "public/content/servicios.json"
         label: "Sección 'Servicios'"
         name: "servicios"
         fields:
@@ -92,7 +92,7 @@ collections:
           - { label: "Texto CTA Inferior", name: "cta_text", widget: "string" }
           - { label: "Botón CTA Inferior", name: "cta_button", widget: "string" }
 
-      - file: "content/why-us.json"
+      - file: "public/content/why-us.json"
         label: "Sección 'Por qué Nosotros'"
         name: "why_us"
         fields:
@@ -106,7 +106,7 @@ collections:
               - { label: "Título", name: "title", widget: "string" }
               - { label: "Descripción", name: "description", widget: "text" }
 
-      - file: "content/testimonios.json"
+      - file: "public/content/testimonios.json"
         label: "Sección 'Testimonios'"
         name: "testimonios"
         fields:
@@ -133,7 +133,7 @@ collections:
                   - { label: "Satisfacción", name: "satisfaction", widget: "string" }
               - { label: "Tags", name: "tags", widget: "list", field: { label: "Tag", name: "tag", widget: "string" }}
 
-      - file: "content/proceso.json"
+      - file: "public/content/proceso.json"
         label: "Sección 'Proceso'"
         name: "proceso"
         fields:
@@ -148,7 +148,7 @@ collections:
               - { label: "Descripción", name: "description", widget: "string" }
           - { label: "Nota Inferior", name: "bottom_note", widget: "string" }
 
-      - file: "content/planes.json"
+      - file: "public/content/planes.json"
         label: "Sección 'Planes'"
         name: "planes"
         fields:
@@ -172,7 +172,7 @@ collections:
           - { label: "Nota WhatsApp", name: "whatsapp_note", widget: "string" }
           - { label: "Nota Email", name: "email_note", widget: "string" }
 
-      - file: "content/included.json"
+      - file: "public/content/included.json"
         label: "Sección 'Incluido en Proyecto'"
         name: "included"
         fields:
@@ -187,7 +187,7 @@ collections:
               - { label: "Título", name: "title", widget: "string" }
               - { label: "Descripción", name: "description", widget: "string" }
 
-      - file: "content/guarantee.json"
+      - file: "public/content/guarantee.json"
         label: "Sección 'Garantía'"
         name: "guarantee"
         fields:
@@ -195,7 +195,7 @@ collections:
           - { label: "Descripción", name: "description", widget: "text" }
           - { label: "Línea de Cierre", name: "closing_line", widget: "string" }
       
-      - file: "content/faq.json"
+      - file: "public/content/faq.json"
         label: "Sección 'Preguntas Frecuentes'"
         name: "faq"
         fields:
@@ -208,7 +208,7 @@ collections:
               - { label: "Pregunta", name: "question", widget: "string" }
               - { label: "Respuesta", name: "answer", widget: "text" }
 
-      - file: "content/formulario.json"
+      - file: "public/content/formulario.json"
         label: "Sección 'CTA Final'"
         name: "formulario"
         fields:
@@ -223,7 +223,7 @@ collections:
           - { label: "Línea de Cierre", name: "closing_line", widget: "string" }
           - { label: "Texto del Botón CTA", name: "cta_text", widget: "string" }
 
-      - file: "content/footer.json"
+      - file: "public/content/footer.json"
         label: "Footer"
         name: "footer"
         fields:
@@ -247,14 +247,14 @@ collections:
               - { label: "Asunto Email", name: "subject", widget: "string" }
               - { label: "Cuerpo Email", name: "body", widget: "string" }
 
-      - file: "content/whatsapp-sticky.json"
+      - file: "public/content/whatsapp-sticky.json"
         label: "Botón Flotante WhatsApp"
         name: "whatsapp_sticky"
         fields:
           - { label: "Tooltip", name: "tooltip", widget: "string" }
           - { label: "Número en Badge", name: "badge_number", widget: "number" }
 
-      - file: "content/cookie-consent.json"
+      - file: "public/content/cookie-consent.json"
         label: "Banner de Cookies"
         name: "cookie_consent"
         fields:

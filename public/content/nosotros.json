@@ -1,0 +1,32 @@
+{
+  "badge": "✨ Sobre Impulsa tu Marca",
+  "title": "Transformamos Negocios en <span class=\"text-primary-purple-400\">Referentes Digitales</span> 💥",
+  "paragraph_1": "Especializados en PYMES y emprendedores hispanohablantes desde 2023. Sabemos que luchas con la invisibilidad digital: inviertes en redes, ads y esfuerzo, pero tu competencia te roba el spotlight y los clientes pasan de largo.",
+  "paragraph_2": "Nuestra misión: Darte el roadmap probado para diferenciarte, captar atención y posicionarte como referente en tu nicho — sin fluff, solo resultados que generan ROI en meses, no años.",
+  "features": [
+    {
+      "icon": "Cpu",
+      "title": "Estrategia Probada",
+      "description": "Diagnóstico profundo + plan de 90 días con tácticas que generan ventas reales"
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "Resultados Garantizados",
+      "description": "De invisible a líder: +200% leads, posicionamiento sólido, conversiones automáticas"
+    }
+  ],
+  "stats": [
+    {
+      "value": "90 días",
+      "label": "ROI visible"
+    },
+    {
+      "value": "+200%",
+      "label": "Leads promedio"
+    },
+    {
+      "value": "50+",
+      "label": "Marcas Impulsadas"
+    }
+  ]
+}

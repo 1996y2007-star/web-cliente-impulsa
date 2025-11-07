@@ -1,0 +1,36 @@
+{
+  "title": "Más Valor del que Esperas",
+  "subtitle": "No solo entregas un proyecto terminado. Cada colaboración incluye todo lo necesario para que tu marca despegue desde el día uno:",
+  "benefits": [
+    {
+      "icon": "Globe",
+      "title": "Dominio .com por 1 Año Completo",
+      "description": "Tu identidad digital asegurada (valor €15/año)"
+    },
+    {
+      "icon": "Mail",
+      "title": "Email Corporativo Personalizado",
+      "description": "Proyecta profesionalismo desde el primer contacto: tu@tumarca.com"
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Garantía de Satisfacción 30 Días",
+      "description": "Revisiones y ajustes incluidos sin costo adicional"
+    },
+    {
+      "icon": "Eye",
+      "title": "Previews Ilimitados",
+      "description": "Apruebas cada fase antes de avanzar. Tu proyecto, tus decisiones."
+    },
+    {
+      "icon": "BarChart",
+      "title": "Análisis Competitivo Incluido",
+      "description": "Sabemos qué hace tu competencia y cómo superarla"
+    },
+    {
+      "icon": "Zap",
+      "title": "Optimización para Conversión",
+      "description": "No solo diseño bonito: estrategia para que tu web venda"
+    }
+  ]
+}

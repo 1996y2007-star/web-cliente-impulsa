@@ -1,0 +1,39 @@
+{
+  "badge": "✨ Servicios",
+  "title": "Servicios que Hacen de tu Marca un Imán Irresistible",
+  "subtitle": "Auditoría de marca + diseño web profesional = tu negocio en piloto automático de ventas",
+  "services": [
+    {
+      "icon": "Search",
+      "title": "Revela tu Superpoder Único",
+      "description": "Auditoría profunda que descubre qué te diferencia de competidores (aumenta diferenciación en +50%)"
+    },
+    {
+      "icon": "Target",
+      "title": "Roadmap de 90 Días Accionable",
+      "description": "Plan semanal sin fluff, solo tácticas probadas que generan wins rápidos y ventas reales"
+    },
+    {
+      "icon": "Flash",
+      "title": "Mensaje que Resuena y Vende",
+      "description": "Copy cristalino que habla directo a tu cliente ideal (más engagement desde día 1)"
+    },
+    {
+      "icon": "Smartphone",
+      "title": "Web Responsive Ultra-Rápida",
+      "description": "Diseño perfecto en cualquier dispositivo, reduce rebote en 70% y convierte visitas en ventas"
+    },
+    {
+      "icon": "LineChart",
+      "title": "Arquitectura de Conversión",
+      "description": "Cada clic lleva a una venta potencial - flujos optimizados con hooks como WhatsApp para leads instantáneos"
+    },
+    {
+      "icon": "Sparkles",
+      "title": "SEO + Velocidad Integrados",
+      "description": "Posicionamiento Google desde launch, optimizado para rankear #1 en tu nicho local"
+    }
+  ],
+  "cta_text": "¿Listo para dejar de ser invisible y empezar a vender?",
+  "cta_button": "🌐 ¡Web que vende de verdad! Reserva demo gratis"
+}

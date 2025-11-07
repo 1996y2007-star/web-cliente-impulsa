@@ -1,0 +1,27 @@
+{
+  "title": "Tu Proyecto en 4 Pasos Claros",
+  "subtitle": "Sin sorpresas, sin complicaciones. Así transformamos tu marca digital.",
+  "steps": [
+    {
+      "number": "🎯",
+      "title": "Entendemos tu Visión",
+      "description": "Completas un cuestionario estratégico o nos envías tu briefing. Analizamos tus objetivos, audiencia y qué te hace único en tu mercado."
+    },
+    {
+      "number": "🔍",
+      "title": "Estudiamos tu Ecosistema",
+      "description": "Investigamos a tu competencia, identificamos oportunidades y diseñamos la estrategia que convertirá visitantes en clientes. Todo basado en datos, no en suposiciones."
+    },
+    {
+      "number": "⚡",
+      "title": "Creamos Juntos tu Proyecto",
+      "description": "Recibes previews regulares para tu feedback. Hacemos las revisiones necesarias hasta que cada detalle refleje exactamente lo que imaginaste (y más)."
+    },
+    {
+      "number": "🚀",
+      "title": "Listos para Resultados",
+      "description": "Entregamos tu proyecto optimizado y listo para generar conversiones. Además, te acompañamos 30 días más para ajustes y resolver cualquier duda."
+    }
+  ],
+  "bottom_note": "🟢 Tiempo estimado: 30-90 días desde la contratación"
+}
