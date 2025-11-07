@@ -1,3 +1,4 @@
+
 import React, { useRef, useEffect, useState } from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
 import { Rocket, Star } from './icons';
@@ -18,6 +19,7 @@ interface HeroContent {
 
 interface ContactContent {
     whatsapp_url: string;
+    email: string;
 }
 
 const iconMap: { [key: string]: React.ElementType } = {
@@ -95,9 +97,11 @@ const Hero: React.FC = () => {
   }, []);
 
   const handleCtaClick = () => {
-    if (!contactInfo) return;
-    trackGtmEvent('hero_cta_click', { source: 'main_hero_button' });
-    window.open(contactInfo.whatsapp_url, '_blank');
+    if (!contactInfo || !contactInfo.email) return;
+    trackGtmEvent('cta_click', { source: 'main_hero_button' });
+    const subject = "Solicitud de Consultoría Gratuita";
+    const body = "Hola, estoy interesado/a en la consultoría gratuita para impulsar mi marca.";
+    window.location.href = `mailto:${contactInfo.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
   
   if (!content) {

@@ -24,5 +24,13 @@ export {
     ExternalLink,
     AlertCircle,
     Mail,
-    Phone
+    Phone,
+    Repeat,
+    Brain,
+    BadgePercent,
+    Globe,
+    ShieldCheck,
+    Eye,
+    BarChart,
+    ChevronDown
 } from 'lucide-react';

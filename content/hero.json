@@ -1,20 +1,15 @@
+
 {
   "badges": [
-    {
-      "text": "⚡ Auditoría GRATIS en 15 min"
-    },
-    {
-      "text": "🕒 Resultados en 48h"
-    },
-    {
-      "text": "💬 WhatsApp directo"
-    }
+    { "text": "⚡ Auditoría GRATIS en 15 min" },
+    { "text": "🕒 Resultados en 48h" },
+    { "text": "💬 WhatsApp directo" }
   ],
   "headline_1": "Impulsa tu Marca Hoy:",
   "headline_2": "De Invisible a Líder",
   "headline_3": "en Ventas Digitales",
   "subheadline": "<b class=\"text-white\">Diseño web que convierte</b> + estrategia probada para que te encuentren y compren. Fácil, rápido, tuyo. Para <b class=\"text-primary-purple-400\">PYMES y emprendedores</b> que quieren <b class=\"text-primary-blue-400\">visibilidad y ventas reales</b>.",
-  "cta_text": "📧 ¡Auditoría GRATIS ADELANTE AGENDA TU CITA YA!",
+  "cta_text": "Agendar Mi Consultoría Gratuita",
   "availability_note": "Solo 3 spots esta semana",
   "trust_badges": [
     {

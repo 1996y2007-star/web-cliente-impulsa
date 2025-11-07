@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
@@ -59,7 +60,7 @@ const Process: React.FC = () => {
                 </div>
                 <div className="w-1/5 flex justify-center order-2">
                   <div className="relative">
-                    <div className="w-12 h-12 bg-gradient-to-br from-primary-purple-600 to-primary-blue-500 rounded-full flex items-center justify-center font-bold text-xl text-white z-10">
+                    <div className="w-12 h-12 bg-gradient-to-br from-primary-purple-600 to-primary-blue-500 rounded-full flex items-center justify-center font-bold text-2xl text-white z-10">
                       {step.number}
                     </div>
                   </div>

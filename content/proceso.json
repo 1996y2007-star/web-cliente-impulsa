@@ -1,27 +1,28 @@
+
 {
-  "title": "¿Cómo trabajamos?",
-  "subtitle": "Proceso simple y transparente, sin sorpresas",
+  "title": "Tu Proyecto en 4 Pasos Claros",
+  "subtitle": "Sin sorpresas, sin complicaciones. Así transformamos tu marca digital.",
   "steps": [
     {
-      "number": "01",
-      "title": "💬 Conversamos",
-      "description": "Me contás sobre tu negocio, tus objetivos y qué necesitás comunicar."
+      "number": "🎯",
+      "title": "Entendemos tu Visión",
+      "description": "Completas un cuestionario estratégico o nos envías tu briefing. Analizamos tus objetivos, audiencia y qué te hace único en tu mercado."
     },
     {
-      "number": "02",
-      "title": "💡 Diseño + Propuesta",
-      "description": "Te muestro un boceto y estructura de cómo va a quedar tu landing."
+      "number": "🔍",
+      "title": "Estudiamos tu Ecosistema",
+      "description": "Investigamos a tu competencia, identificamos oportunidades y diseñamos la estrategia que convertirá visitantes en clientes. Todo basado en datos, no en suposiciones."
     },
     {
-      "number": "03",
-      "title": "💻 Desarrollo",
-      "description": "Construyo tu página, optimizada y lista para convertir visitantes en clientes."
+      "number": "⚡",
+      "title": "Creamos Juntos tu Proyecto",
+      "description": "Recibes previews regulares para tu feedback. Hacemos las revisiones necesarias hasta que cada detalle refleje exactamente lo que imaginaste (y más)."
     },
     {
-      "number": "04",
-      "title": "🚀 Lanzamiento",
-      "description": "Tu landing va online y empezás a recibir consultas. Yo te acompaño."
+      "number": "🚀",
+      "title": "Listos para Resultados",
+      "description": "Entregamos tu proyecto optimizado y listo para generar conversiones. Además, te acompañamos 30 días más para ajustes y resolver cualquier duda."
     }
   ],
-  "bottom_note": "🟢 Tiempo estimado: 5-7 días desde la contratación"
+  "bottom_note": "🟢 Tiempo estimado: 30-90 días desde la contratación"
 }

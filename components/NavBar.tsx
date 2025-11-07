@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from './icons';
@@ -16,6 +17,7 @@ interface NavContent {
 
 interface ContactContent {
     whatsapp_url: string;
+    email: string;
 }
 
 const NavBar: React.FC = () => {
@@ -41,9 +43,11 @@ const NavBar: React.FC = () => {
   }, []);
   
   const handleCtaClick = () => {
-      if (!contactInfo) return;
-      trackGtmEvent('hero_cta_click', { source: 'navbar' });
-      window.open(contactInfo.whatsapp_url, '_blank');
+    if (!contactInfo || !contactInfo.email) return;
+    trackGtmEvent('cta_click', { source: 'navbar' });
+    const subject = "Solicitud de Consultoría Gratuita";
+    const body = "Hola, estoy interesado/a en la consultoría gratuita para impulsar mi marca.";
+    window.location.href = `mailto:${contactInfo.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
 
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

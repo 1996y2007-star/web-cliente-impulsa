@@ -1,9 +1,14 @@
+
 {
-  "badge": "⚡ Último Paso",
-  "title": "Demos el Primer Paso Juntos 🚀",
-  "subtitle": "Contame sobre tu negocio y te doy un plan personalizado en 15 min. Auditoría GRATIS + 3 acciones para +30% ventas en 90 días.",
-  "fallback_title": "Oops! El formulario no se cargó.",
-  "fallback_subtitle": "Puedes completarlo haciendo clic en el botón de abajo.",
-  "fallback_button": "Abrir Formulario en Nueva Pestaña",
-  "legal_note": "🔒 Tus datos están protegidos. Solo los usamos para tu auditoría y plan personalizado. No compartimos información con terceros. <a href=\"#\" class=\"underline hover:text-gray-300\">Ver Política de Privacidad</a>"
+  "badge": "🚀 Tu Marca, Nuestro Impulso",
+  "title": "¿Listo para Dejar de Ser Invisible?",
+  "subtitle": "Agenda una consultoría estratégica gratuita de 30 minutos. Analizamos tu situación actual, definimos objetivos claros y te presento un plan personalizado.",
+  "benefits_title": "En esta llamada:",
+  "benefits": [
+    "Analizamos tu situación actual sin costo",
+    "Identificamos oportunidades específicas para tu negocio",
+    "Recibes una propuesta transparente y sin compromiso"
+  ],
+  "closing_line": "Hablemos de tu visión, tus retos, y cómo llevar tu marca de invisible a referente.",
+  "cta_text": "Agendar Mi Consultoría Gratuita"
 }

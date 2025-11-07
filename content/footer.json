@@ -1,3 +1,4 @@
+
 {
   "logo": "Impulsa tu Marca 💥",
   "info_line_1": "Auditoría + Diseño Web",
@@ -14,10 +15,10 @@
     }
   ],
   "email_cta": {
-    "title": "📬 Tips de Marketing GRATIS",
-    "subtitle": "Suscríbete y recibe estrategias semanales",
-    "link_text": "Suscribirse ahora",
-    "subject": "Suscripción Impulsa tu Marca",
-    "body": "Hola, quiero suscribirme para recibir tips de marketing."
+    "title": "¿Listo para Dejar de Ser Invisible?",
+    "subtitle": "Agenda tu consultoría estratégica gratuita.",
+    "link_text": "Hablemos",
+    "subject": "Solicitud de Consultoría Gratuita",
+    "body": "Hola, estoy interesado/a en la consultoría gratuita para impulsar mi marca."
   }
 }

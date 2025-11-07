@@ -7,9 +7,13 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
+import WhyUs from './components/WhyUs';
 import Testimonials from './components/Testimonials';
 import Process from './components/Process';
 import Plans from './components/Plans';
+import Included from './components/Included';
+import Guarantee from './components/Guarantee';
+import Faq from './components/Faq';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import StickyWhatsApp from './components/StickyWhatsApp';
@@ -83,9 +87,13 @@ const App: React.FC = () => {
           <Hero />
           <About />
           <Services />
+          <WhyUs />
           <Testimonials />
           <Process />
           <Plans />
+          <Included />
+          <Guarantee />
+          <Faq />
           <ContactForm />
         </main>
         <Footer />
