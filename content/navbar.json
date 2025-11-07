@@ -1,0 +1,22 @@
+{
+  "logo": "Impulsa tu Marca 💥",
+  "links": [
+    {
+      "name": "Nosotros",
+      "href": "#quien-soy"
+    },
+    {
+      "name": "Servicios",
+      "href": "#beneficios"
+    },
+    {
+      "name": "Testimonios",
+      "href": "#portfolio"
+    },
+    {
+      "name": "Planes",
+      "href": "#planes"
+    }
+  ],
+  "cta_text": "Auditoría GRATIS"
+}

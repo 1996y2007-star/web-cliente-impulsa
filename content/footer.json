@@ -1,0 +1,23 @@
+{
+  "logo": "Impulsa tu Marca 💥",
+  "info_line_1": "Auditoría + Diseño Web",
+  "info_line_2": "WhatsApp: {whatsapp}",
+  "copyright": "© 2025 Impulsa tu Marca. Todos los derechos reservados.",
+  "links": [
+    {
+      "name": "Política de Privacidad",
+      "href": "#"
+    },
+    {
+      "name": "Términos y Condiciones",
+      "href": "#"
+    }
+  ],
+  "email_cta": {
+    "title": "📬 Tips de Marketing GRATIS",
+    "subtitle": "Suscríbete y recibe estrategias semanales",
+    "link_text": "Suscribirse ahora",
+    "subject": "Suscripción Impulsa tu Marca",
+    "body": "Hola, quiero suscribirme para recibir tips de marketing."
+  }
+}

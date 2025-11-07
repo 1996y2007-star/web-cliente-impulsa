@@ -1,0 +1,4 @@
+export const VIDEO_ASSETS = {
+  hero: "https://rkgtdjrozbieeqgicgkc.supabase.co/storage/v1/object/sign/audios/COHETE%202.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zZGJmM2NhNy1kMzM5LTQ2N2EtYjhiZC1iZmIzNThjY2YzMDIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhdWRpb3MvQ09IRVRFIDIubXA0IiwiaWF0IjoxNzYxNzM4MDY4LCJleHAiOjI0NTExMjM2Njh9.5PVmihuBfeIJk8lfEawE6eH9nLnkOl3nfsA6m8BAZoI",
+  fallback: "https://rkgtdjrozbieeqgicgkc.supabase.co/storage/v1/object/sign/audios/COHETE.mp4?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zZGJmM2NhNy1kMzM5LTQ2N2EtYjhiZC1iZmIzNThjY2YzMDIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhdWRpb3MvQ09IRVRFLm1wNCIsImlhdCI6MTc2MTczODA5NywiZXhwIjoyNDUxMTIzNjk3fQ.8JH7VmHkvBDdmA0GjsTyeg1eRGSEiDbhmy-BiwhwTgk"
+};

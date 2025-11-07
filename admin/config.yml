@@ -1,0 +1,211 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Páginas"
+    files:
+      - file: "content/contact.json"
+        label: "Información de Contacto"
+        name: "contact"
+        fields:
+          - { label: "WhatsApp (Número)", name: "whatsapp", widget: "string" }
+          - { label: "WhatsApp URL (Completa)", name: "whatsapp_url", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Formulario URL", name: "form_url", widget: "string" }
+          - { label: "Google Tag Manager ID", name: "gtm_id", widget: "string", hint: "Ej: GTM-XXXXXX" }
+
+      - file: "content/navbar.json"
+        label: "Barra de Navegación"
+        name: "navbar"
+        fields:
+          - { label: "Texto del Logo", name: "logo", widget: "string" }
+          - label: "Links de Navegación"
+            name: "links"
+            widget: "list"
+            fields:
+              - { label: "Texto", name: "name", widget: "string" }
+              - { label: "Ancla (href)", name: "href", widget: "string", hint: "Ej: #planes" }
+          - { label: "Texto Botón CTA", name: "cta_text", widget: "string" }
+
+      - file: "content/hero.json"
+        label: "Sección Principal (Hero)"
+        name: "hero"
+        fields:
+          - label: "Badges Superiores"
+            name: "badges"
+            widget: "list"
+            field: { label: "Texto del Badge", name: "text", widget: "string" }
+          - { label: "Título - Línea 1", name: "headline_1", widget: "string" }
+          - { label: "Título - Línea 2 (Animada)", name: "headline_2", widget: "string" }
+          - { label: "Título - Línea 3 (Animada)", name: "headline_3", widget: "string" }
+          - { label: "Subtítulo", name: "subheadline", widget: "text" }
+          - { label: "Texto Botón Principal", name: "cta_text", widget: "string" }
+          - label: "Badges de Confianza (Inferiores)"
+            name: "trust_badges"
+            widget: "list"
+            fields:
+              - { label: "Texto", name: "text", widget: "string" }
+              - { label: "Icono", name: "icon", widget: "select", options: ["none", "rocket", "star"] }
+          - { label: "Nota de Disponibilidad", name: "availability_note", widget: "string" }
+
+      - file: "content/nosotros.json"
+        label: "Sección 'Nosotros'"
+        name: "nosotros"
+        fields:
+          - { label: "Badge", name: "badge", widget: "string" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Párrafo 1", name: "paragraph_1", widget: "text" }
+          - { label: "Párrafo 2", name: "paragraph_2", widget: "text" }
+          - label: "Características"
+            name: "features"
+            widget: "list"
+            fields:
+              - { label: "Icono", name: "icon", widget: "select", options: ["Cpu", "HeartHandshake"] }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+          - label: "Estadísticas"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Valor", name: "value", widget: "string" }
+              - { label: "Etiqueta", name: "label", widget: "string" }
+
+      - file: "content/servicios.json"
+        label: "Sección 'Servicios'"
+        name: "servicios"
+        fields:
+          - { label: "Badge", name: "badge", widget: "string" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Subtítulo", name: "subtitle", widget: "text" }
+          - label: "Lista de Servicios"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Icono", name: "icon", widget: "select", options: ["Search", "Target", "Flash", "Smartphone", "LineChart", "Sparkles"] }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+          - { label: "Texto CTA Inferior", name: "cta_text", widget: "string" }
+          - { label: "Botón CTA Inferior", name: "cta_button", widget: "string" }
+
+      - file: "content/testimonios.json"
+        label: "Sección 'Testimonios'"
+        name: "testimonios"
+        fields:
+          - { label: "Badge", name: "badge", widget: "string" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Subtítulo", name: "subtitle", widget: "text" }
+          - label: "Testimonios"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "hidden", default: "" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Categoría", name: "category", widget: "string" }
+              - { label: "Cliente", name: "client", widget: "string" }
+              - { label: "Cita", name: "quote", widget: "text" }
+              - { label: "Imágenes", name: "images", widget: "list", field: { label: "URL Imagen", name: "url", widget: "image" } }
+              - label: "Métricas"
+                name: "metrics"
+                widget: "object"
+                fields:
+                  - { label: "Conversión", name: "conversion", widget: "string" }
+                  - { label: "Tiempo de Carga", name: "loadTime", widget: "string" }
+                  - { label: "Tráfico", name: "traffic", widget: "string" }
+                  - { label: "Satisfacción", name: "satisfaction", widget: "string" }
+              - { label: "Tags", name: "tags", widget: "list", field: { label: "Tag", name: "tag", widget: "string" }}
+
+      - file: "content/proceso.json"
+        label: "Sección 'Proceso'"
+        name: "proceso"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Subtítulo", name: "subtitle", widget: "string" }
+          - label: "Pasos"
+            name: "steps"
+            widget: "list"
+            fields:
+              - { label: "Número", name: "number", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "string" }
+          - { label: "Nota Inferior", name: "bottom_note", widget: "string" }
+
+      - file: "content/planes.json"
+        label: "Sección 'Planes'"
+        name: "planes"
+        fields:
+          - { label: "Badge", name: "badge", widget: "string" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Subtítulo", name: "subtitle", widget: "string" }
+          - label: "Planes"
+            name: "plans"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Texto Botón CTA", name: "cta_text", widget: "string" }
+              - { label: "URL CTA (WhatsApp)", name: "cta_url_param", widget: "string", hint: "Ej: el%20plan%20de%20Auditor%C3%ADa" }
+              - label: "Características"
+                name: "features"
+                widget: "list"
+                field: { label: "Característica", name: "feature", widget: "string" }
+          - { label: "Nota WhatsApp", name: "whatsapp_note", widget: "string" }
+          - { label: "Nota Email", name: "email_note", widget: "string" }
+
+      - file: "content/formulario.json"
+        label: "Sección 'Formulario'"
+        name: "formulario"
+        fields:
+          - { label: "Badge", name: "badge", widget: "string" }
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Subtítulo", name: "subtitle", widget: "text" }
+          - { label: "Texto Fallback (Error)", name: "fallback_title", widget: "string" }
+          - { label: "Subtexto Fallback (Error)", name: "fallback_subtitle", widget: "string" }
+          - { label: "Botón Fallback (Error)", name: "fallback_button", widget: "string" }
+          - { label: "Nota Legal", name: "legal_note", widget: "string" }
+
+      - file: "content/footer.json"
+        label: "Footer"
+        name: "footer"
+        fields:
+          - { label: "Texto Logo", name: "logo", widget: "string" }
+          - { label: "Info Línea 1", name: "info_line_1", widget: "string" }
+          - { label: "Info Línea 2 (WhatsApp)", name: "info_line_2", widget: "string" }
+          - { label: "Copyright", name: "copyright", widget: "string" }
+          - label: "Links Legales"
+            name: "links"
+            widget: "list"
+            fields:
+              - { label: "Texto", name: "name", widget: "string" }
+              - { label: "URL", name: "href", widget: "string" }
+          - label: "CTA Email"
+            name: "email_cta"
+            widget: "object"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Subtítulo", name: "subtitle", widget: "string" }
+              - { label: "Texto Link", name: "link_text", widget: "string" }
+              - { label: "Asunto Email", name: "subject", widget: "string" }
+              - { label: "Cuerpo Email", name: "body", widget: "string" }
+
+      - file: "content/whatsapp-sticky.json"
+        label: "Botón Flotante WhatsApp"
+        name: "whatsapp_sticky"
+        fields:
+          - { label: "Tooltip", name: "tooltip", widget: "string" }
+          - { label: "Número en Badge", name: "badge_number", widget: "number" }
+
+      - file: "content/cookie-consent.json"
+        label: "Banner de Cookies"
+        name: "cookie_consent"
+        fields:
+          - { label: "Texto Principal", name: "text", widget: "string" }
+          - { label: "Subtítulo", name: "subtitle", widget: "string" }
+          - { label: "Texto Botón Rechazar", name: "reject_button", widget: "string" }
+          - { label: "Texto Botón Aceptar", name: "accept_button", widget: "string" }

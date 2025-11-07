@@ -1,0 +1,43 @@
+{
+  "badge": "⭐ Planes",
+  "title": "Impulsa tu Marca: Opciones Flexibles para tu Éxito",
+  "subtitle": "Elige la modalidad que transforme tu negocio de invisible a líder digital",
+  "plans": [
+    {
+      "tag": "🎯 Lo Más Pedido",
+      "title": "Auditoría de Marca + Estrategia",
+      "description": "Revela los bloques que frenan tu éxito. Diagnóstico profundo + roadmap de 90 días para diferenciarte y posicionarte como referente en tu nicho.",
+      "features": [
+        "Auditoría completa de identidad y posicionamiento",
+        "Roadmap de 90 días con tácticas accionables",
+        "Descubre tu \"superpoder único\" vs. competencia",
+        "Mensaje cristalino optimizado para tu audiencia",
+        "Plan semanal sin fluff (solo wins rápidos)",
+        "Fundación para marketing con ROI en meses",
+        "Sesiones de seguimiento incluidas (30 días)",
+        "📧 Auditoría GRATIS inicial (15 min)"
+      ],
+      "cta_text": "¡Auditoría GRATIS ya!",
+      "cta_url_param": "Hola%2C%20me%20interesa%20el%20plan%20de%20Auditor%C3%ADa%20de%20Marca%20y%20Estrategia."
+    },
+    {
+      "tag": "🌐 Web que Vende",
+      "title": "Diseño Web Profesional",
+      "description": "Web elegante, ultra-rápida y obsesionada con conversiones. Con copy que persuade, flujos optimizados y hooks como WhatsApp para leads instantáneos.",
+      "features": [
+        "Diseño responsive total (100% móvil-perfecto)",
+        "Arquitectura de conversión (cada clic → venta potencial)",
+        "Copy integrado que \"habla\" a tu cliente ideal",
+        "SEO baked-in + velocidad relámpago",
+        "Reducción de rebote en 70%+",
+        "Integraciones WhatsApp + redes sociales",
+        "Mockup inicial gratis + 2 revisiones",
+        "Soporte post-lanzamiento (30 días)"
+      ],
+      "cta_text": "Reserva tu demo gratis",
+      "cta_url_param": "Hola%2C%20me%20interesa%20el%20plan%20de%20Dise%C3%B1o%20Web%20Profesional."
+    }
+  ],
+  "whatsapp_note": "💬 ¿No estás seguro cuál elegir? Hablemos por WhatsApp ({whatsapp}) y te ayudo a encontrar la mejor opción para impulsar tu marca.",
+  "email_note": "📧 O escríbenos a: <a href=\"mailto:{email}\" class=\"text-primary-purple-400 hover:underline\">{email}</a>"
+}

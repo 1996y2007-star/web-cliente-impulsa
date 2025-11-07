@@ -1,0 +1,27 @@
+{
+  "title": "¿Cómo trabajamos?",
+  "subtitle": "Proceso simple y transparente, sin sorpresas",
+  "steps": [
+    {
+      "number": "01",
+      "title": "💬 Conversamos",
+      "description": "Me contás sobre tu negocio, tus objetivos y qué necesitás comunicar."
+    },
+    {
+      "number": "02",
+      "title": "💡 Diseño + Propuesta",
+      "description": "Te muestro un boceto y estructura de cómo va a quedar tu landing."
+    },
+    {
+      "number": "03",
+      "title": "💻 Desarrollo",
+      "description": "Construyo tu página, optimizada y lista para convertir visitantes en clientes."
+    },
+    {
+      "number": "04",
+      "title": "🚀 Lanzamiento",
+      "description": "Tu landing va online y empezás a recibir consultas. Yo te acompaño."
+    }
+  ],
+  "bottom_note": "🟢 Tiempo estimado: 5-7 días desde la contratación"
+}

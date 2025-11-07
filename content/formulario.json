@@ -1,0 +1,9 @@
+{
+  "badge": "⚡ Último Paso",
+  "title": "Demos el Primer Paso Juntos 🚀",
+  "subtitle": "Contame sobre tu negocio y te doy un plan personalizado en 15 min. Auditoría GRATIS + 3 acciones para +30% ventas en 90 días.",
+  "fallback_title": "Oops! El formulario no se cargó.",
+  "fallback_subtitle": "Puedes completarlo haciendo clic en el botón de abajo.",
+  "fallback_button": "Abrir Formulario en Nueva Pestaña",
+  "legal_note": "🔒 Tus datos están protegidos. Solo los usamos para tu auditoría y plan personalizado. No compartimos información con terceros. <a href=\"#\" class=\"underline hover:text-gray-300\">Ver Política de Privacidad</a>"
+}
