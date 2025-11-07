@@ -39,7 +39,7 @@ const Included: React.FC = () => {
     }
 
     return (
-        <section id="incluido" className="py-20 md:py-32 bg-dark-bg/50">
+        <section id="incluido" className="py-20 md:py-32 bg-dark-mid/50">
             <div className="container mx-auto px-6">
                 <motion.div
                     className="text-center max-w-3xl mx-auto"

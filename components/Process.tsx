@@ -26,11 +26,11 @@ const Process: React.FC = () => {
     }, []);
 
     if (!content) {
-        return <section className="py-20 md:py-32 bg-dark-bg/50"><div className="container mx-auto px-6 text-center">Cargando...</div></section>;
+        return <section className="py-20 md:py-32 bg-dark-mid/50"><div className="container mx-auto px-6 text-center">Cargando...</div></section>;
     }
 
   return (
-    <section className="py-20 md:py-32 bg-dark-bg/50">
+    <section className="py-20 md:py-32 bg-dark-mid/50">
       <div className="container mx-auto px-6 text-center">
         <motion.div
             initial={{ opacity: 0, y: 30 }}

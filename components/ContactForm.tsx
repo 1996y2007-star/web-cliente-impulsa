@@ -41,11 +41,11 @@ const ContactForm: React.FC = () => {
     };
 
     if (!content || !contactInfo) {
-        return <section id="formulario" className="py-20 md:py-32 bg-dark-bg/50"><div className="container mx-auto px-6 text-center">Cargando...</div></section>;
+        return <section id="formulario" className="py-20 md:py-32 bg-dark-mid/50"><div className="container mx-auto px-6 text-center">Cargando...</div></section>;
     }
 
     return (
-        <section id="formulario" className="py-20 md:py-32 bg-dark-bg/50">
+        <section id="formulario" className="py-20 md:py-32 bg-dark-mid/50">
             <div className="container mx-auto px-6">
                 <motion.div
                     className="max-w-4xl mx-auto bg-white/5 border border-white/10 rounded-3xl p-8 md:p-12 text-center backdrop-blur-xl"

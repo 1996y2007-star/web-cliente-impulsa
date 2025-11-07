@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Search, Target, Flash, Smartphone, LineChart, Sparkles } from './icons';
@@ -59,11 +60,11 @@ const Services: React.FC = () => {
   };
 
   if (!content) {
-    return <section id="beneficios" className="py-20 md:py-32 bg-dark-bg/50"><div className="container mx-auto px-6 text-center">Cargando...</div></section>;
+    return <section id="beneficios" className="py-20 md:py-32 bg-dark-mid/50"><div className="container mx-auto px-6 text-center">Cargando...</div></section>;
   }
 
   return (
-    <section id="beneficios" className="py-20 md:py-32 bg-dark-bg/50">
+    <section id="beneficios" className="py-20 md:py-32 bg-dark-mid/50">
       <div className="container mx-auto px-6 text-center">
         <motion.div
             initial={{ opacity: 0, y: 30 }}
