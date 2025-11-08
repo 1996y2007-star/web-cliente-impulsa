@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { trackGtmEvent } from '../App';
@@ -18,6 +17,13 @@ interface ContactContent {
     email: string;
 }
 
+// Add gtag to window for TypeScript
+declare global {
+    interface Window { 
+        gtag?: (command: string, action: string, params?: object) => void;
+    }
+}
+
 const ContactForm: React.FC = () => {
     const [content, setContent] = useState<FormContent | null>(null);
     const [contactInfo, setContactInfo] = useState<ContactContent | null>(null);
@@ -33,6 +39,15 @@ const ContactForm: React.FC = () => {
     }, []);
 
     const handleCtaClick = () => {
+        // Google Ads conversion tracking
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', 'conversion', {
+                'send_to': 'AW-17714004597/ZVi9CJziq7wbEPWE2f5B',
+                'value': 1.0,
+                'currency': 'EUR'
+            });
+        }
+
         if (!contactInfo || !contactInfo.email) return;
         trackGtmEvent('cta_click', { source: 'final_cta_button' });
         const subject = "Solicitud de Consultoría Gratuita";

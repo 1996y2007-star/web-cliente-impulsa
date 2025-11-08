@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from './icons';
@@ -74,7 +73,12 @@ const NavBar: React.FC = () => {
   return (
     <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-gray-900/80 backdrop-blur-xl border-b border-primary-purple-500/20' : 'bg-transparent'}`}>
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#hero" onClick={(e) => scrollToSection(e, '#hero')} className="text-xl md:text-2xl font-bold text-white" dangerouslySetInnerHTML={{ __html: content.logo }}>
+        <a href="#hero" onClick={(e) => scrollToSection(e, '#hero')} className="flex items-center">
+            <img 
+                src="https://rkgtdjrozbieeqgicgkc.supabase.co/storage/v1/object/sign/audios/LOGO%20IMPULSA.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8zZGJmM2NhNy1kMzM5LTQ2N2EtYjhiZC1iZmIzNThjY2YzMDIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJhdWRpb3MvTE9HTyBJTVBVTFNBLnBuZyIsImlhdCI6MTc2MjYyMTQyNiwiZXhwIjoxMDMxNDMyMDYyNn0.b6_6ASGUlmTZ9ejHD5tSvXcCW6bLtR34YbWfuGbWWck" 
+                alt="Impulsa tu Marca Logo"
+                className="h-32 w-auto"
+            />
         </a>
         <div className="hidden lg:flex items-center space-x-8">
           {content.links.map((link) => (
