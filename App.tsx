@@ -10,6 +10,7 @@ import Services from './components/Services';
 import WhyUs from './components/WhyUs';
 import Testimonials from './components/Testimonials';
 import Process from './components/Process';
+import Analytics from './components/Analytics';
 import Plans from './components/Plans';
 import Included from './components/Included';
 import Guarantee from './components/Guarantee';
@@ -90,6 +91,7 @@ const App: React.FC = () => {
           <WhyUs />
           <Testimonials />
           <Process />
+          <Analytics />
           <Plans />
           <Included />
           <Guarantee />
