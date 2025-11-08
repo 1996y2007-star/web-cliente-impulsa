@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 
@@ -91,6 +90,8 @@ const Analytics: React.FC = () => {
                 alt="Mapa de calor de una página web mostrando las zonas de mayor interacción de los usuarios."
                 className="w-full rounded-xl shadow-2xl shadow-primary-purple-500/20"
                 loading="lazy"
+                width="1200"
+                height="736"
               />
             </motion.div>
             <motion.div 
@@ -130,6 +131,8 @@ const Analytics: React.FC = () => {
                 alt="Dashboard en tiempo real de Google Analytics mostrando visitantes activos, fuentes de tráfico y páginas más vistas."
                 className="w-full rounded-xl shadow-2xl shadow-primary-purple-500/20"
                 loading="lazy"
+                width="1200"
+                height="725"
               />
             </motion.div>
             <motion.div 
@@ -169,6 +172,8 @@ const Analytics: React.FC = () => {
                 alt="Informe de Google Analytics con gráficos de adquisición de usuarios, interacción y conversiones."
                 className="w-full rounded-xl shadow-2xl shadow-primary-purple-500/20"
                 loading="lazy"
+                width="1200"
+                height="677"
               />
             </motion.div>
             <motion.div 
@@ -207,6 +212,8 @@ const Analytics: React.FC = () => {
             alt="Dashboard completo de analíticas web mostrando diversas métricas clave de rendimiento del sitio."
             className="w-full max-w-4xl mx-auto rounded-xl shadow-2xl shadow-primary-purple-500/20"
             loading="lazy"
+            width="1200"
+            height="694"
           />
         </motion.div>
 

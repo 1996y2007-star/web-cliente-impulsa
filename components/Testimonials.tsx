@@ -86,6 +86,9 @@ const TestimonialModal: React.FC<{ testimonial: Testimonial; onClose: () => void
               exit={{ opacity: 0, x: -100 }}
               transition={{ duration: 0.3 }}
               className="absolute top-0 left-0 w-full h-full object-cover"
+              loading="lazy"
+              width="800"
+              height="600"
             />
           </AnimatePresence>
           <button onClick={prevSlide} className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 p-2 rounded-full text-white opacity-0 group-hover:opacity-100 transition-opacity"><ChevronLeft /></button>
@@ -180,7 +183,7 @@ const Testimonials: React.FC = () => {
                             className="group relative bg-white/5 border border-white/10 rounded-2xl overflow-hidden cursor-pointer backdrop-blur-xl"
                             onClick={() => setSelectedTestimonial(testimonial)}
                         >
-                            <img src={testimonial.images[0]} alt={testimonial.title} className="w-full h-48 object-cover" loading="lazy" />
+                            <img src={testimonial.images[0]} alt={testimonial.title} className="w-full h-48 object-cover" loading="lazy" width="800" height="600" />
                             <div className="p-6">
                                 <h3 className="font-bold text-xl text-white">{testimonial.title}</h3>
                                 <p className="text-primary-purple-400 text-sm">{testimonial.category}</p>
