@@ -99,8 +99,8 @@ const Hero: React.FC = () => {
   const handleCtaClick = () => {
     if (!contactInfo || !contactInfo.email) return;
     trackGtmEvent('cta_click', { source: 'main_hero_button' });
-    const subject = "Solicitud de Consultoría Gratuita";
-    const body = "Hola, estoy interesado/a en la consultoría gratuita para impulsar mi marca.";
+    const subject = "Solicitud de Auditoría Gratuita";
+    const body = "¡Me gustaría una auditoría gratuita de mi negocio!";
     window.location.href = `mailto:${contactInfo.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
   
